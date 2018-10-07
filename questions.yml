@@ -21,12 +21,12 @@ questions:
     type: string
     label: Image Tag
   - variable: mariadb.image.repository
-    default: "bitnami/mariadb"
+    default: "mariadb"
     description: "MariaDB image name"
     type: string
     label: MariaDB Image Name
   - variable: mariadb.image.tag
-    default: "10.1.35-debian-9"
+    default: "10.1.26"
     description: "MariaDB image tag"
     type: string
     label: MariaDB Image Tag
