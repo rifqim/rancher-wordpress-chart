@@ -11,12 +11,12 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: image.repository
-    default: "bitnami/wordpress"
+    default: "wordpress"
     description: "WordPress image name"
     type: string
     label: WordPress Image Name
   - variable: image.tag
-    default: "4.9.8-debian-9"
+    default: "4.9.8-php5.6-apache"
     description: "WordPress image tag"
     type: string
     label: Image Tag
