@@ -4,7 +4,7 @@
 image:
   # registry: docker.io
   repository: wordpress
-  tag: 10.1.26
+  tag: 4.9.8-php5.6-apache
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
   ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
